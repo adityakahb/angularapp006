@@ -1,0 +1,106 @@
+@import './../../globalsass';
+.dropdown-menu {
+    min-width: auto;
+    .dropdown-item {
+        padding: rem(4px) rem(16px);
+        .icon {
+            height: rem(24px);
+            width: rem(24px);
+            display: inline-block;
+            margin-right: rem(8px);
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+.cta-inline-dd {
+    display: inline-block;
+}
+.cta-comp {
+    margin-bottom: rem(8px);
+    margin-right: rem(8px);
+    .mdi {
+        height: rem(24px);
+        width: rem(24px);
+    }
+    &.dropdown-toggle {
+        &:after {
+            display: none;
+        }
+    }
+    &.teaser-tag {
+        display: inline-block;
+        font-weight: bold;
+        margin-bottom: rem(0);
+        margin-right: rem(0);
+        &.t-light {
+            &:link {
+                color: $light;
+            }
+            &:visited {
+                color: $light;
+            }
+            &:hover {
+                color: $light;
+            }
+            &:active {
+                color: $light;
+            }
+        }
+        &.t-dark {
+            &:link {
+                color: $dark;
+            }
+            &:visited {
+                color: $dark;
+            }
+            &:hover {
+                color: $dark;
+            }
+            &:active {
+                color: $dark;
+            }
+        }
+    }
+    &.txt-icn {
+        padding-right: rem(40px);
+        position: relative;
+        .mdi, .spinner {
+            margin-top: rem(-12px);
+            position: absolute;
+            right: rem(8px);
+            top: 50%;
+        }
+    }
+    &.icn-o {
+        padding-bottom: 0;
+        padding-top: rem(5.72px);
+        &.btn-lg {
+            padding-bottom: rem(3.71px);
+            padding-top: rem(10px);
+        }
+        &.btn-sm {
+            line-height: 1;
+            padding-bottom: 0;
+            padding-top: rem(2.29px);
+        }
+    }
+    .ld-spinner {
+        height: rem(24px);
+        width: rem(24px);
+    }
+    &.btn-primary {
+        .ld-spinner {
+            border-color: rgba(#fff, 0.25);
+            border-top-color: rgba(#fff, 1);
+        }
+    }
+}
+::ng-deep .t-dark {
+    color: $dark;
+}
+::ng-deep .t-light {
+    color: $light;
+}
