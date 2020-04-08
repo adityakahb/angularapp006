@@ -21,6 +21,8 @@ $theme-colors: map-merge(("primary": $primary,
     "dark": $dark),
   $theme-colors);
 
+$font-family-sans-serif: 'Roboto Condensed', Helvetica, sans-serif;
+
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
