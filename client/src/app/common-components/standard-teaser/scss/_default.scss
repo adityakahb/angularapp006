@@ -1,5 +1,6 @@
 .teaser-card {
   background-color: rgba($light, 0.85);
+  backdrop-filter: blur(0.5rem);
   border: rem(1px) solid $light;
   border-radius: rem(4px);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);

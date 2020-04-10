@@ -30,11 +30,12 @@ body {
 
 p,
 .p {
-  font-size: rem(16px);
+  // font-size: rem(16px);
 
-  @media (min-width: $md) {
-    font-size: rem(18px);
-  }
+  // @media (min-width: $md) {
+  //   font-size: rem(18px);
+  // }
+  font-size: inherit;
 }
 
 h1,

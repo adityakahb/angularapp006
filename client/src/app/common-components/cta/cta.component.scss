@@ -35,34 +35,34 @@
         font-weight: bold;
         margin-bottom: rem(0);
         margin-right: rem(0);
-        &.t-light {
-            &:link {
-                color: $light;
-            }
-            &:visited {
-                color: $light;
-            }
-            &:hover {
-                color: $light;
-            }
-            &:active {
-                color: $light;
-            }
-        }
-        &.t-dark {
-            &:link {
-                color: $dark;
-            }
-            &:visited {
-                color: $dark;
-            }
-            &:hover {
-                color: $dark;
-            }
-            &:active {
-                color: $dark;
-            }
-        }
+        // &.t-light {
+        //     &:link {
+        //         color: $light;
+        //     }
+        //     &:visited {
+        //         color: $light;
+        //     }
+        //     &:hover {
+        //         color: $light;
+        //     }
+        //     &:active {
+        //         color: $light;
+        //     }
+        // }
+        // &.t-dark {
+        //     &:link {
+        //         color: $dark;
+        //     }
+        //     &:visited {
+        //         color: $dark;
+        //     }
+        //     &:hover {
+        //         color: $dark;
+        //     }
+        //     &:active {
+        //         color: $dark;
+        //     }
+        // }
     }
     &.txt-icn {
         padding-right: rem(40px);

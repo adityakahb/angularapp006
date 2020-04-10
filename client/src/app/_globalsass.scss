@@ -23,6 +23,8 @@ $theme-colors: map-merge(("primary": $primary,
 
 $font-family-sans-serif: 'Roboto Condensed', Helvetica, sans-serif;
 
+$grid-gutter-width: 32px;
+
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";

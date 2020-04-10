@@ -267,21 +267,21 @@ $rem240: rem(-240px);
       padding: rem(15px);
       text-decoration: none;
 
-      &:link {
-        color: $light;
-      }
+      // &:link {
+      //   color: $light;
+      // }
 
-      &:visited {
-        color: $light;
-      }
+      // &:visited {
+      //   color: $light;
+      // }
 
-      &:hover {
-        color: $light;
-      }
+      // &:hover {
+      //   color: $light;
+      // }
 
-      &:active {
-        color: $light;
-      }
+      // &:active {
+      //   color: $light;
+      // }
     }
 
     p {
@@ -326,21 +326,21 @@ $rem240: rem(-240px);
         text-transform: uppercase;
         padding: rem(15px);
 
-        &:link {
-          color: $dark;
-        }
+        // &:link {
+        //   color: $dark;
+        // }
 
-        &:visited {
-          color: $dark;
-        }
+        // &:visited {
+        //   color: $dark;
+        // }
 
-        &:hover {
-          color: $dark;
-        }
+        // &:hover {
+        //   color: $dark;
+        // }
 
-        &:active {
-          color: $dark;
-        }
+        // &:active {
+        //   color: $dark;
+        // }
       }
     }
   }
